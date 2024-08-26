@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+  color: #3561f1;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #3561f1;
+}
+
+.about {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.skills {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.img {
+  height: 150px;
+}
+
+.projects {
+  max-width: 1000px;
+  /* Adjust width as needed */
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.projects h2 {
+  color: white;
+  background-color: #3561f1;
+  border-radius: 8px;
+  padding: 10px;
+  /* text-align: center; */
+  margin-bottom: 20px;
+  /* Space below the title */
+}
+
+.projectGrid {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allows items to wrap onto multiple lines */
+  gap: 20px;
+  /* Space between items */
+  justify-content: center;
+  /* Center align items horizontally */
+}
+
+.projectItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1 1 calc(33.333% - 20px);
+  /* 3 columns with space between items */
+  box-sizing: border-box;
+  /* Ensures padding and border are included in width/height */
+  margin-bottom: 20px;
+  /* Adds space between rows */
+}
+
+.projectImages {
+  height: 125px;
+  width: 100px;
+  border-radius: 8px;
+  border-style: double;
+  margin-bottom: 10px;
+  /* Space between image and link */
+}
+
+.projectItem a {
+  text-decoration: none;
+  color: #3561f1;
+  font-weight: bold;
+  display: block;
+}
+
+.projectItem a:hover {
+  color: #0039ff;
+  /* Darker blue for hover effect */
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #f1f1f1;
+  font-family: "Quicksand", sans-serif;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #3561f1;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  color: #0039ff;
+}
