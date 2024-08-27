@@ -8,7 +8,7 @@ A few challeneges I had for this assignment was understanding the react-router-d
 
 skills implemented: React, css 
 
-gist link: https://gist.github.com/taperez1989/8a01c52cfd2eb6902a6638046a0fc84d
+netlify link: https://drive.google.com/file/d/1QY6Sh-ik2pN4RbejkkUGmpygfA5Lnum_/preview
 
 repo link: https://github.com/taperez1989/TP_RPortfolio
 

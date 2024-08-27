@@ -5,6 +5,7 @@ function Contact() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
+    console.log(event.target);
     const formData = new FormData(event.target);
 
     formData.append("access_key", "ecabac1f-d422-44fa-97c3-fa897293fe4f");
@@ -29,7 +30,7 @@ function Contact() {
 
   return (
     <section className="contact">
-      <form >
+      <form onSubmit={onSubmit} >
         <h2>Contact Form</h2>
         <div className="input-box">
           <label>Full Name</label>
@@ -43,7 +44,7 @@ function Contact() {
           <label>Your message</label>
           <textarea name="message"  className="field mess" placeholder='Enter your message' required></textarea>
         </div>
-        <button onClick={onSubmit}  type="submit">Send Message</button>
+        <button   type='submit'>Send Message</button>
       </form>
     </section>
   )
