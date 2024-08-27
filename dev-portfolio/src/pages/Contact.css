@@ -14,6 +14,7 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     color: #333;
     margin: 25px;
+    background-color: #F4F1DE;
 }
 
 form h2 {
@@ -23,6 +24,8 @@ form h2 {
 
 form .input-box {
     margin-top: 20px;
+   /* background-color: #fff; */
+    
 }
 
 .input-box .field {
@@ -34,7 +37,7 @@ form .input-box {
     border-radius: 6px;
     padding: 15px;
     font-size: 16px;
-    color: #333;
+    background-color: #fff;
     margin-top: 8px;
 }
 
@@ -46,7 +49,7 @@ form .input-box {
 form button {
     width: 100%;
     height: 55px;
-    background: #3561f1;
+    background: #E07A5F;
     border: none;
     border-radius: 6px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
@@ -59,5 +62,5 @@ form button {
 }
 
 form button:hover {
-    background: #2949b3;
+    background: #F2CC8F;
 }

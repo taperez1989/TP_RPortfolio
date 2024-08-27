@@ -4,7 +4,8 @@
 * {
   margin: 0;
   font-family: "Quicksand";
-  color: #333;
+  color: #3D405B;
+  font-weight: 800;
 }
 
 .navbar {
@@ -13,12 +14,13 @@
   align-items: center;
   max-width: 1000px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #3D405B;
   list-style-type: none;
+  background-color: white;
 }
 
 .navbar h1 {
-  color: #3561f1;
+  color: #3D405B;
 }
 
 .navbar .links {
@@ -35,7 +37,7 @@
 }
 
 .navbar a:hover {
-  color: #3561f1;
+  color: #F2CC8F;
 }
 
 .home {
@@ -69,7 +71,7 @@
 
 .projects h2 {
   color: white;
-  background-color: #3561f1;
+  background-color: #3D405B;
   border-radius: 8px;
   padding: 10px;
   /* text-align: center; */
@@ -111,13 +113,13 @@
 
 .projectItem a {
   text-decoration: none;
-  color: #3561f1;
+  color: #3D405B;
   font-weight: bold;
   display: block;
 }
 
 .projectItem a:hover {
-  color: #0039ff;
+  color: #3D405B;
   /* Darker blue for hover effect */
 }
 
@@ -136,10 +138,10 @@
 
 .footer a {
   text-decoration: none;
-  color: #3561f1;
+  color: #3D405B;
   font-weight: bold;
 }
 
 .footer a:hover {
-  color: #0039ff;
+  color: #3D405B;
 }
