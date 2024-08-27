@@ -1,11 +1,9 @@
-// import { useState } from 'react'
+
 import './App.css'
+import { Outlet } from 'react-router-dom';
 import Navbar from './components/Navbar.jsx';
-import AboutMe from './components/AboutMe.jsx';
-import Skills from './components/Skills.jsx';
-import ProjectList from './components/ProjectList.jsx';
 import Footer from './components/Footer.jsx';
-import Contact from './components/Contact.jsx';
+
 
 function App() {
   
@@ -13,10 +11,9 @@ function App() {
   return (
     <div>
       <Navbar />
-      <AboutMe />
-      <Skills />
-      <ProjectList />
-      <Contact />
+      <main className="mx-3">
+        <Outlet />
+      </main>
       <Footer />
   </div>
   )

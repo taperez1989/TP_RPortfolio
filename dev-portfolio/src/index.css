@@ -14,6 +14,7 @@
   max-width: 1000px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
+  list-style-type: none;
 }
 
 .navbar h1 {
@@ -22,6 +23,9 @@
 
 .navbar .links {
   margin-left: auto;
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
 }
 
 .navbar a {
@@ -32,6 +36,12 @@
 
 .navbar a:hover {
   color: #3561f1;
+}
+
+.home {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
 }
 
 .about {
