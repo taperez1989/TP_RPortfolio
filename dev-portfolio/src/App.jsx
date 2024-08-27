@@ -9,7 +9,7 @@ function App() {
   
 
   return (
-    <div>
+    <div className='background'>
       <Navbar />
       <main className="mx-3">
         <Outlet />

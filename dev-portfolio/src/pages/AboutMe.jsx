@@ -6,7 +6,7 @@ function AboutMe() {
       <img src="/images/me.jpg" alt="headshot" className='img'/>
       <h2 style={{
         color: "white",
-        backgroundColor: '#3561f1',
+        backgroundColor: '#3D405B',
         borderRadius: '8px',
         paddingLeft: '8px'
           }}>About Me</h2>

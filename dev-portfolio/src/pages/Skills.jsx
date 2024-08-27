@@ -5,7 +5,7 @@ function Skills() {
         <div className="skills">
             <h3 style={{
                 color: "white",
-                backgroundColor: '#3561f1',
+                backgroundColor: '#3D405B',
                 borderRadius: '8px',
                 paddingLeft: '8px'
             }}>Skills</h3>
