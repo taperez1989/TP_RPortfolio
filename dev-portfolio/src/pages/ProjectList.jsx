@@ -16,25 +16,46 @@ function ProjectList() {
           <a href="https://gamechaser-wlza.onrender.com/">Game Chaser</a>
         </div>
 
-        <div className='projectItem'>
-          <img src="/images/expressNotes.png" alt="Express Notes" className="projectImages" />
-          <a href="https://express-notes-1-9i9x.onrender.com/">Express Notes</a>
+        <div>
+          <div id="express" >
+            <div id="links">
+              <a href="https://express-notes-1-9i9x.onrender.com/">link</a>
+              <a href="https://github.com/taperez1989/Express_notes.git">github</a>
+            </div>
+          </div>
+          <h4>Express Notes</h4>
         </div>
 
-        <div className='projectItem'>
-          <img src="/images/employTrack.png" alt="Employee Tracker" className="projectImages" />
-          <a href="https://github.com/taperez1989/Employ_track.git">Employee Tracker</a>
+        <div>
+          <div id='employee'>
+            <div id='links'>
+              <a href="https://taperez1989.github.io/Employ_track/">link</a>
+              <a href="https://github.com/taperez1989/Employ_track.git">github</a>
+            </div>
+          </div>
+          <h4>Employee Tracker</h4>
         </div>
 
-        <div className='projectItem'>
-          <img src="/images/blogAPI.png" alt="Blog API" className="projectImages" />
-          <a href="https://taperez1989.github.io/Blog_api/">Blog API</a>
+        <div>
+          <div id='blog'>
+            <div id='links'>
+              <a href="https://taperez1989.github.io/Blog_api/">link</a>
+              <a href="https://github.com/taperez1989/Blog_api.git">github</a>
+            </div>
+          </div>
+          <h4>Blog API</h4>
         </div>
 
-        <div className='projectItem'>
-          <img src="/images/taskBoard.png" alt="Task Board" className="projectImages" />
-          <a href="https://taperez1989.github.io/2Do_tasks/">Task Board</a>
+        <div>
+          <div id='task'>
+            <div id='links'>
+              <a href="https://taperez1989.github.io/2Do_tasks/">link</a>
+              <a href="https://github.com/taperez1989/2Do_tasks.git">github</a>
+            </div>
+          </div>
+          <h4>To Do Tasks</h4>
         </div>
+
       </div>
     </div>
   );
